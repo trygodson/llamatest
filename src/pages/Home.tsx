@@ -241,26 +241,20 @@ const Home: React.FC = () => {
         </div>
 
         {/* Bottom CTA */}
-        {/* <div className="text-center mt-8">
+        <div className="text-center mt-8">
           <div className="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl p-6 text-white shadow-xl">
             <h3 className="text-xl font-bold mb-2">🎯 Ready for Advanced Features?</h3>
             <p className="mb-4 opacity-90">Upload documents, manage cases, and unlock premium AI capabilities</p>
             <div className="flex items-center justify-center space-x-4">
               <a
                 href="/login"
-                className="bg-white text-indigo-600 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg"
-              >
-                🚀 Get Started
-              </a>
-              <a
-                href="/signup"
                 className="border-2 border-white text-white px-6 py-2 rounded-lg font-semibold hover:bg-white hover:text-indigo-600 transition-colors"
               >
-                📝 Sign Up Free
+                Login Now
               </a>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
