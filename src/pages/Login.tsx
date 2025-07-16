@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Lock, Mail, Eye, EyeOff, Shield, ArrowLeft, Scale, Sparkles, Zap } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
+import { BASE_URL } from '../utils';
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState('');
@@ -16,7 +17,7 @@ const Login: React.FC = () => {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:8000/auth/login', {
+      const response = await fetch(BASE_URL + '/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
