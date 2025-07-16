@@ -244,7 +244,7 @@ const Home: React.FC = () => {
         <div className="text-center mt-8">
           <div className="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl p-6 text-white shadow-xl">
             <h3 className="text-xl font-bold mb-2">🎯 Ready for Advanced Features?</h3>
-            <p className="mb-4 opacity-90">Upload documents, manage cases, and unlock premium AI capabilities</p>
+            <p className="mb-4 opacity-90">Upload documents, manage cases</p>
             <div className="flex items-center justify-center space-x-4">
               <a
                 href="/login"
