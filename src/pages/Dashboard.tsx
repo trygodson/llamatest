@@ -453,6 +453,21 @@ const Dashboard: React.FC = () => {
             </div>
           </div>
         )}
+
+        <div className="mt-12 text-center">
+          <div className="bg-white rounded-2xl shadow-lg border border-red-100 p-6 max-w-md mx-auto">
+            <button
+              onClick={() => {
+                localStorage.removeItem('access_token');
+                navigate('/login');
+              }}
+              className="bg-gradient-to-r from-red-500 to-pink-600 text-white px-6 py-3 rounded-xl hover:from-red-600 hover:to-pink-700 transition-all duration-200 font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 inline-flex items-center space-x-2"
+            >
+              <span>🚪</span>
+              <span>Sign Out</span>
+            </button>
+          </div>
+        </div>
       </div>
 
       <UploadModal
